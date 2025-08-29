@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Africa Quiz – UPSC Practice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Africa Quiz – UPSC Practice</h1>
+      <p class="subtitle">50 MCQs • One question at a time • No negative marking</p>
+    </header>
+
+    <section id="quiz-card" class="card hidden">
+      <div class="progress">
+        <div id="progress-text"></div>
+        <div class="bar"><div id="progress-bar"></div></div>
+      </div>
+
+      <div id="question-box">
+        <h2 id="question-text"></h2>
+        <div id="options"></div>
+      </div>
+
+      <div class="controls">
+        <button id="prev-btn" class="btn secondary">Previous</button>
+        <button id="next-btn" class="btn">Next</button>
+        <button id="submit-btn" class="btn accent hidden">Submit</button>
+      </div>
+    </section>
+
+    <section id="result-card" class="card hidden">
+      <h2>Result</h2>
+      <p id="score-line"></p>
+      <div class="legend">
+        <span class="pill correct">Correct</span>
+        <span class="pill wrong">Wrong</span>
+        <span class="pill skipped">Skipped</span>
+      </div>
+      <div class="table-wrap">
+        <table id="review-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Question</th>
+              <th>Your Answer</th>
+              <th>Correct Answer</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="controls">
+        <button id="retake-btn" class="btn">Retake Quiz</button>
+      </div>
+    </section>
+
+    <section id="start-card" class="card">
+      <h2>Ready to start?</h2>
+      <p>This quiz covers African geography, history, and organizations relevant to UPSC GS.</p>
+      <button id="start-btn" class="btn accent">Start Quiz</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made with ❤️ using HTML, CSS & JavaScript (no framework).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
