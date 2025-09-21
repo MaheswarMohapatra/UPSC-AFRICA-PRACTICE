@@ -231,7 +231,7 @@ function retake() {
 //  TIMER LOGIC (30 mins)
 // ***********************
 let timerInterval;
-const totalTime = 30 * 60;
+const totalTime = 45 * 60;
 let timeLeft = totalTime;
 
 function startTimer() {
