@@ -106,6 +106,10 @@
   { q: "The President addresses the Parliament in:", options: ["Budget Session", "Monsoon Session", "Both", "None"], answer: 2 },
   { q: "The Constitution was adopted on:", options: ["26th November 1949", "26th January 1950", "15th August 1947", "2nd October 1950"], answer: 0 },
   { q: "The idea of secularism in India is derived from:", options: ["Preamble", "Directive Principles", "Judiciary", "Fundamental Rights"], answer: 0 }
+  { q: "Which Article of the Constitution deals with the protection of minorities?", options: ["Article 29-30", "Article 25-28", "Article 14-18", "Article 21A"], answer: 0 },
+  { q: "Who is responsible for the amendment of the Constitution?", options: ["President", "Parliament", "Supreme Court", "Prime Minister"], answer: 1 }
+
+
 ];
 
 
